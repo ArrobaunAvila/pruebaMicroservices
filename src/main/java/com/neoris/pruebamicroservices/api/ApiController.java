@@ -3,6 +3,7 @@ package com.neoris.pruebamicroservices.api;
 import com.neoris.pruebamicroservices.business.ControllerBusiness;
 import com.neoris.pruebamicroservices.dto.*;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -58,7 +59,7 @@ public class ApiController {
    }
    
 
-   @PutMapping("clientes/{clientId}")
+   @PutMapping("/clientes/{clientId}")
    public ResponseEntity<ResponseApiDto> updateInformationPersonaClient(@RequestBody RequestBodyClientUpdate requestBodyClientUpdate, @PathVariable String clientId){
      return new ResponseEntity( controllerBusiness.updateUsuario(requestBodyClientUpdate, Long.valueOf(clientId)), HttpStatus.OK);
    }

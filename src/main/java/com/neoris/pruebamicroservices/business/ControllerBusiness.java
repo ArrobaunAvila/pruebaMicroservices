@@ -7,7 +7,6 @@ import com.neoris.pruebamicroservices.model.entity.Movimiento;
 import com.neoris.pruebamicroservices.model.entity.Persona;
 import com.neoris.pruebamicroservices.services.PublicarService;
 import com.neoris.pruebamicroservices.utils.UtilsApp;
-import dto.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
