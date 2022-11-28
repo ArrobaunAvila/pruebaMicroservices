@@ -5,14 +5,11 @@ import com.neoris.pruebamicroservices.model.entity.Cuenta;
 import com.neoris.pruebamicroservices.model.entity.Movimiento;
 import com.neoris.pruebamicroservices.model.entity.Persona;
 import com.neoris.pruebamicroservices.model.repository.*;
-import dto.MovimentBillingdto;
-import dto.RequestCuentasDTO;
+import com.neoris.pruebamicroservices.dto.MovimentBillingdto;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 
 @Service

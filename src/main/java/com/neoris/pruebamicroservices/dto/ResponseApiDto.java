@@ -1,4 +1,4 @@
-package dto;
+package com.neoris.pruebamicroservices.dto;
 
 import lombok.*;
 import org.springframework.http.HttpStatus;

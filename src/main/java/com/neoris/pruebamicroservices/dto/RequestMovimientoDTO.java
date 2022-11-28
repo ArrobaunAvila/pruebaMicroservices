@@ -1,4 +1,4 @@
-package dto;
+package com.neoris.pruebamicroservices.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

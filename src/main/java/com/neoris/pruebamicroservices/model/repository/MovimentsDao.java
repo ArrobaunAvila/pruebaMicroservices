@@ -1,17 +1,15 @@
 package com.neoris.pruebamicroservices.model.repository;
 
 import com.neoris.pruebamicroservices.utils.Database;
-import dto.MovimentBillingdto;
+import com.neoris.pruebamicroservices.dto.MovimentBillingdto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DataSourceUtils;
 import org.springframework.stereotype.Repository;
 
-import java.sql.SQLData;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
